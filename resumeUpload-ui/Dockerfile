@@ -3,5 +3,5 @@ WORKDIR /resume
 ADD . .
 EXPOSE 4200
 RUN npm install # Installing dependencies
-RUN npm build # Building the Stuff
+RUN ng build # Building the Stuff
 CMD npm start
